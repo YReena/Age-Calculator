@@ -1,0 +1,51 @@
+body{  
+  font-family: Arial, Helvetica, sans-serif;  
+  background-color: #2782e3;  
+  font-size: 15px;  
+  line-height: 1.5;  
+  padding: 0;  
+  margin: 0;  
+ }
+.container{
+    display:flex ;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color:#2782e3 ;	
+    border-radius: 5px;
+}
+.cal-box{
+ 	width:520px;  
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+ }
+ .heading{
+ 	text-align: center;
+ 	padding: 10px;
+ 	font-size: 20px;
+ 	font-weight: bolder;
+ 	border-bottom: solid;
+ }
+ .area{
+    display: flex;
+    justify-content: center;
+ }
+ .display-age{
+    text-align: center;
+    margin-top: 20px;
+    color: #02025afa;
+    font-weight: bolder;
+  }
+ .area input{
+    width: 250px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+ }
+ input[type=reset]{
+    margin-left: 32%;
+ }
+ input[type=submit]{
+    margin-left: 10%;
+ }

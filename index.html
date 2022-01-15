@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Age calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		
+		<div class="cal-box">
+			
+			<div class="cal-area">
+				<div class="heading">Age Calculator</div>
+				<div class="area">
+					
+						<input type="date" id="age" required>
+				
+				</div>
+				<input type="reset" name="reset" id="reset" onclick="resetvalue()">
+				<input type="submit" name="Calculate" onclick="ageCalculator()">
+				
+			</div>
+			<div id="display-age" style="font-weight:bolder; text-align: center; color: darkblue; margin-top: 20px;"></div>
+	
+		</div>
+	
+	</div>
+
+<script src="index.js"></script>
+</body>
+</html>
